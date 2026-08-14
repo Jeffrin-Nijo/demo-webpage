@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova - Modern Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">NOVA<span>.</span></div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="badge">🚀 THE FUTURE STARTS HERE</p>
+
+        <h1>Build Something <span>Amazing.</span></h1>
+
+        <p class="hero-text">
+          A modern, responsive and powerful website template
+          designed to help your business grow online.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#services" class="btn primary">Get Started →</a>
+          <a href="#about" class="btn secondary">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="circle"></div>
+        <div class="floating-card card-one">⚡ Fast</div>
+        <div class="floating-card card-two">🔒 Secure</div>
+        <div class="floating-card card-three">🚀 Powerful</div>
+
+        <div class="main-card">
+          <div class="card-icon">✦</div>
+          <h3>Nova Platform</h3>
+          <p>Everything you need in one place.</p>
+          <div class="progress">
+            <div></div>
+          </div>
+          <small>87% Complete</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="section-title">
+        <p>FEATURES</p>
+        <h2>Everything You Need</h2>
+        <span>Powerful features packed into one beautiful platform.</span>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature">
+          <div class="feature-icon">⚡</div>
+          <h3>Lightning Fast</h3>
+          <p>Optimized performance gives your visitors a smooth experience.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">📱</div>
+          <h3>Fully Responsive</h3>
+          <p>Looks great on phones, tablets, laptops and large screens.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🔒</div>
+          <h3>Secure</h3>
+          <p>Built with modern security and best practices in mind.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🎨</div>
+          <h3>Beautiful Design</h3>
+          <p>A clean and modern interface that users will love.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">📊</div>
+          <h3>Analytics</h3>
+          <p>Track your growth and understand your audience better.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🌎</div>
+          <h3>Global</h3>
+          <p>Reach customers anywhere in the world with your website.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="about-image">
+        <div class="about-box">
+          <strong>10K+</strong>
+          <span>Happy Customers</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="small-title">ABOUT NOVA</p>
+        <h2>We Turn Ideas Into Reality</h2>
+
+        <p>
+          Nova is a modern digital platform created to help individuals,
+          creators and businesses build their online presence.
+        </p>
+
+        <p>
+          Whether you're launching a new company or building your personal
+          brand, our tools are designed to make the process simple.
+        </p>
+
+        <a href="#contact" class="btn primary">Work With Us →</a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="section-title">
+        <p>SERVICES</p>
+        <h2>What We Do</h2>
+        <span>Professional solutions for modern businesses.</span>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service">
+          <div>💻</div>
+          <h3>Web Development</h3>
+          <p>Fast and scalable websites built with modern technologies.</p>
+          <a href="#contact">Learn more →</a>
+        </div>
+
+        <div class="service">
+          <div>📱</div>
+          <h3>App Development</h3>
+          <p>Beautiful applications designed for today's users.</p>
+          <a href="#contact">Learn more →</a>
+        </div>
+
+        <div class="service">
+          <div>🎯</div>
+          <h3>Digital Marketing</h3>
+          <p>Grow your audience and turn visitors into customers.</p>
+          <a href="#contact">Learn more →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div>
+        <strong>10K+</strong>
+        <span>Customers</span>
+      </div>
+
+      <div>
+        <strong>99%</strong>
+        <span>Satisfaction</span>
+      </div>
+
+      <div>
+        <strong>50+</strong>
+        <span>Countries</span>
+      </div>
+
+      <div>
+        <strong>24/7</strong>
+        <span>Support</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+      <div class="section-title">
+        <p>CONTACT</p>
+        <h2>Let's Work Together</h2>
+        <span>Have a project in mind? Send us a message.</span>
+      </div>
+
+      <form id="contactForm">
+
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+
+        <input type="text" id="subject" placeholder="Subject" required>
+
+        <textarea id="message" rows="7" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn primary">
+          Send Message →
+        </button>
+
+        <p id="formMessage"></p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+
+      <div>
+        <div class="logo">NOVA<span>.</span></div>
+        <p>Building the future, one idea at a time.</p>
+      </div>
+
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 Nova. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
